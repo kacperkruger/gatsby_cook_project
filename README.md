@@ -1,6 +1,6 @@
 # Gatsby recipe project
 
-Simple gatsby project, which is taken from "Gatsby Static Site Generator Tutorial"
+Implementation of "Gatsby Static Site Generator Tutorial"
 
 - https://www.youtube.com/watch?v=RaTpreA0v7Q
 
