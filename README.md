@@ -1,4 +1,4 @@
-# Gatsby cook project
+# Gatsby recipe project
 
 Simple gatsby project, which is taken from "Gatsby Static Site Generator Tutorial"
 
