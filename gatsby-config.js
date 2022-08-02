@@ -25,6 +25,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -37,6 +38,14 @@ module.exports = {
       options: {
         spaceId: `fgu8v5yn3wwe`,
         accessToken: process.env.CONTENTFUL_API_KEY,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Montserrat", "Inconsolata"],
+        },
       },
     },
   ],
