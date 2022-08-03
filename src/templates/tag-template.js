@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import RecipeList from "../components/RecipeList"
+import SEO from "../components/SEO"
 
 const TagTemplate = ({
   data: {
@@ -11,6 +12,7 @@ const TagTemplate = ({
 }) => {
   return (
     <Layout>
+      <SEO title={tag} />
       <main className="page">
         <h2>{tag}</h2>
         <div className="tag-recipes">
