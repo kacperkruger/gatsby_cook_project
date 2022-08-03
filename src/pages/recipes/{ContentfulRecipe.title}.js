@@ -1,10 +1,10 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import Layout from "../components/Layout"
 import { BsClock, BsClockHistory, BsPeople } from "react-icons/all"
 import slugify from "slugify"
-import SEO from "../components/SEO"
+import Layout from "../../components/Layout"
+import SEO from "../../components/SEO"
 
 const RecipeTemplate = ({ data }) => {
   console.log(data)
